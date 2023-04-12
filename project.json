@@ -40,7 +40,12 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/lib-a/**/*.ts", "libs/lib-a/**/*.html"]
+        "lintFilePatterns": [
+          "libs/lib-a/**/*.ts",
+          "libs/lib-a/**/*.html",
+          "libs/lib-a/components/**/*.ts",
+          "libs/lib-a/components/**/*.html"
+        ]
       }
     }
   }
