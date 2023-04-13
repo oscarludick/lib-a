@@ -6,5 +6,6 @@ import { ComponentAComponent } from './component-a.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [ComponentAComponent],
+  exports: [ComponentAComponent],
 })
 export class ComponentAModule {}
