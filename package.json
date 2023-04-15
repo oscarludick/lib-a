@@ -1,5 +1,5 @@
 {
-  "name": "@test/lib-a",
+  "name": "@testpolymon/lib-a",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
